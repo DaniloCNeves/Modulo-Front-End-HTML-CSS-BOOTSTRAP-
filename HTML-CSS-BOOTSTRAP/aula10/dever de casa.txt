@@ -1,0 +1,7 @@
+Dever de casa
+============
+
+Crie uma página de cadastro de Alunos com:
+nome, cpf, nascimento, filiação, turno (manhã tarde, ou noite), cursos (desenvolvimento Back-end, front-end, full-stack);
+
+Organize corretamente o layout com css.

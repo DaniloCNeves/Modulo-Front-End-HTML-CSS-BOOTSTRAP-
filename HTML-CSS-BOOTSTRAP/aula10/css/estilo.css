@@ -1,0 +1,83 @@
+body{
+    background-image: url(../background/background.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: silver;
+}
+header{
+    border: 5px solid rgba(18, 55, 130, 0.798);
+    border-radius: 10px;
+    height: 80px;
+    width: 90%;
+    margin-left: 70px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(17, 121, 181, 0.701), rgba(30, 108, 144, 0.541));
+    box-shadow: 2px 2px 15px black;
+}
+h2{
+    border: 5px solid rgba(18, 55, 130, 0.798);
+    border-radius: 10px;
+    height: 50px;
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 100px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(17, 121, 181, 0.701), rgba(30, 108, 144, 0.541));
+    box-shadow: 2px 2px 15px black;
+}
+main{
+    height: 500px;
+    width: 80%;
+    margin-left: 140px;
+    margin-top: 10px;
+    text-align: center;
+    border: 5px solid rgba(18, 55, 130, 0.798);
+    border-radius: 10px;
+    box-shadow: 10px ;
+    background-image: linear-gradient(to right, rgba(17, 121, 181, 0.701), rgba(30, 108, 144, 0.541));
+    box-shadow: 2px 2px 15px black;
+}
+#dados{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: justify;
+    font-size: 14pt;
+}
+fieldset {
+    border: 3px solid rgba(18, 55, 130, 0.798);
+}
+legend {
+    border: 3px solid rgba(18, 55, 130, 0.798);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.botao {
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    width: 40%;
+    position: relative;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 15px black;
+}
+button::before,
+button::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+.botao:hover{
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    background-color: blue;
+    justify-items: center;
+}

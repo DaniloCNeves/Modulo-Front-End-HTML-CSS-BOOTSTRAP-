@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro com Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <form action="./enviado.html">
+      <fieldset>
+        <legend>Cadastro de Alunos</legend>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label for="inputNome">NOME:</label>
+          </div>
+          <div class="col-md-6 form-floating">
+            <input type="Nome" class="form-control" id="floatingInput" placeholder="Nome Completo" required
+              maxlength="100">
+            <label for="floatingInput">Nome Completo</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label for="inputCpf">CPF:</label>
+          </div>
+          <div class="col-md-6 form-floating">
+            <input type="text" class="form-control" id="floatingInput" placeholder="CPF" value="000.000.000-00" required
+              maxlength="100">
+            <label for="floatingInput">CPF</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label for="inputTelefone">TELEFONE:</label>
+          </div>
+          <div class="col-md-6 form-floating">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Telefone" required maxlength="100">
+            <label for="floatingInput">Telefone</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label for="radioTipo">TIPO:</label>
+          </div>
+          <div class="col-md-3">
+            <input type="radio" name="radioTipo" value="w"> WhatsApp
+            <input type="radio" name="radioTipo" value="t"> Telegram
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label for="inputEmail">EMAIL:</label>
+          </div>
+          <div class="col-md-6">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="e-mail">
+              <label for="floatingInputGroup1">e-mail</label>
+              <span class="input-group-text">seu-email@exemplo.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label for="inputFiliação">FILIAÇÃO:</label>
+          </div>
+          <div class="col-md-6 form-floating">
+            <input type="Nome" class="form-control" id="floatingInput" placeholder="Nome Completo" required
+              maxlength="100">
+            <label for="floatingInput">Nome da Mãe</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <label for="inputNome"></label>
+          </div>
+          <div class="col-md-6 form-floating">
+            <input type="Nome" class="form-control" id="floatingInput" placeholder="Nome Completo" required
+              maxlength="100">
+            <label for="floatingInput">Nome do Pai</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <label for="inputEndereço">ENDEREÇO:</label>
+          </div>
+          <div class="col-md-6 form-floating">
+            <input type="Nome" class="form-control" id="floatingInput" placeholder="Nome Completo" required
+              maxlength="100">
+            <label for="floatingInput">Endereço Completo</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <label class="cadastrar">
+            <button>Cadastrar</button>
+            <input class="limpar" type="reset" value="Limpar Dados">
+          </label>
+        </div>
+
+      </fieldset>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+#site{
+    height: 950px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topo{
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#nav{
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+    padding: 1px;
+}
+
+#nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16pt;
+}
+
+#conteudo{
+    background-color: white;
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: auto auto;
+    float: left;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+#conteudo div{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: yellow;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}

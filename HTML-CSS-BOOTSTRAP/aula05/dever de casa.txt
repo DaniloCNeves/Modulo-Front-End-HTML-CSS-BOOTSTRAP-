@@ -1,0 +1,7 @@
+Dever de casa
+=============
+
+
+Crie um site com 3 páginas usando o mesmo arquivo css.
+Faça um layout básico, como o usado em sala de aula.
+Crie links de navegação que possibilite de qualquer página acessar qualquer outra página deste site.

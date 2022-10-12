@@ -1,0 +1,72 @@
+body{
+    background-color: darkgrey;
+    margin: 0;
+}
+
+#pagina{
+    width: 1080px;
+    margin: 0 auto;
+    background-color: darkred;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 12px;
+    font-family: cursive;
+}
+
+#topo, #rodape{
+    height: 100px;
+    background-color:darkgoldenrod;
+    border-radius: 10px;
+    padding: auto;
+    box-shadow: 5px 05px black;
+    margin-bottom: 20px;
+}
+
+#conteudo{
+    min-height: 500px;
+    background-color: darkgoldenrod;
+    padding: 20px 0 20px 0;
+    border-radius: 10px;
+    box-shadow: 05px 05px black;
+    margin-bottom: 20px;
+}
+
+#conteudo iframe{
+    margin: 0 10px 0 10px;
+}
+
+#nav{
+    background-color: silver;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 05px 05px black;
+    margin-bottom: 20px;
+}
+
+#nav a{
+    margin: 0 100px 0 100px;
+    font-family:cursive;
+    text-align:center;
+}
+
+#rodape a{
+    margin: 10px 10px 10px 10px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    align-items: center;
+    margin: 10px 5px 10px 0;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    display: inline-grid;
+}
+p{
+    text-align: justify;
+    color: darkblue;
+    text-transform: none;
+    padding: 0 30px 0 20px;
+}

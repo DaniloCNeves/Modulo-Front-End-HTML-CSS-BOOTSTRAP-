@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td,
+th {
+    border: 2px solid black;
+}
+
+th {
+    background-color: rgb(252, 204, 12);
+}
+
+.valores {
+    font-weight: bold;
+}

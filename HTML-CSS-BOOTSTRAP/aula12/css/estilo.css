@@ -1,0 +1,38 @@
+body {
+    height: 650px;
+    width: 100%;
+    background-image: url(../background/background.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  form .row div {
+    text-align: right;
+  }
+
+  form .row {
+    margin-bottom: 10px;
+  }
+
+  legend {
+    margin-top: 20px;
+    text-align: center;
+    border: 5px solid rgba(18, 55, 130, 0.798);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  fieldset {
+    border: 5px solid rgba(18, 55, 130, 0.798);
+    border-radius: 10px;
+  }
+
+  .cadastrar {
+    text-align: center;
+  }

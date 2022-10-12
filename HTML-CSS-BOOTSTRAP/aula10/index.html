@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro de Alunos</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Step Computer Academy</h1>
+    </header>
+
+    <main>
+        <div class="formulario">
+            <fieldset>
+                <legend>
+                    <h1>Formulário de Matrícula</h1>
+                </legend>
+
+                <form action="./enviado.html">
+
+                    <div id="dados">
+                        <div class="item-form">
+                            <div>
+                                <label for="inputNome">Nome</label>
+                            </div>
+                            <div>
+                                <input type="text" name="inputNome" placeholder="Nome Completo" maxlength="100">
+                            </div>
+                        </div>
+
+                        <div class="item-form">
+                            <div>
+                                <label for="inputCpf">CPF</label>
+                            </div>
+                            <div>
+                                <input type="text" name="inputCpf" placeholder="000.000.000-00" maxlength="100">
+                            </div>
+                        </div>
+
+                        <div class="item-form">
+                            <div>
+                                <label for="inputNascimento">Nascimento</label>
+                            </div>
+                            <div>
+                                <input type="date" name="inputNascimento">
+                            </div>
+                        </div>
+
+                        <div class="item-form">
+                            <div>
+                                <label for="inputFiliação">Filiação</label>
+                            </div>
+                            <div>
+                                <input type="text" name="inputFiliação" placeholder="Nome da Mãe" maxlength="100">
+                                <br>
+                                <input type="text" name="inputFiliação" placeholder="Nome da Pai" maxlength="100">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="dados">
+                        <div class="item-form">
+                            <div>
+                                <label for="selectTurno">Turno</label>
+                            </div>
+                            <div>
+                                <select name="selectTurno">
+                                    <option value="m">Manhã</option>
+                                    <option value="t">Tarde</option>
+                                    <option value="n">Noite</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="item-form">
+                            <div>
+                                <label for="checkInteresse">Cursos</label>
+                            </div>
+                            <div>
+                                <!--Para type 'checkbox' não é necessário OBRIGATORIAMENTE que o 'name' seja igual (podem ser diferentes)-->
+                                <input type="checkbox" name="interesse">
+                                Desenvolvedor Back-End <br>
+                                <input type="checkbox" name="interesse">
+                                Desenvolvedor Front-End <br>
+                                <input type="checkbox" name="interesse">
+                                Desenvolvedor Full-Stack <br>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="item-form">
+                        <button class="botao">Cadastrar</button>
+                    </div>
+
+                </form>
+            </fieldset>
+        </div>
+    </main>
+
+</body>
+
+</html>

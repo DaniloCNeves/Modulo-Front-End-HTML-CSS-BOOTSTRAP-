@@ -1,0 +1,4 @@
+Vá ao site tudogostoso.com.br e copie uma receita á sua escolha.
+Use listas, coloque a imagem da receita e tente deixar as cores, formatação de fonte e tamanho da imagem próximos ao original.
+
+Não esqueça de colocar um link diretamente para página da receita no fim da sua página.

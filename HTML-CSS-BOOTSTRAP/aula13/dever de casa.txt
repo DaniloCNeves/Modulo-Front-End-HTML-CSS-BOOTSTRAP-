@@ -1,0 +1,8 @@
+Dever de casa
+
+Reproduza o card do PES com jogador diferente ao da imagem de exemplo.
+
+Imagem de exemplo: https://i.pinimg.com/736x/71/4b/e2/714be2513ffa6e0f2a50bb21048cbc58.jpg
+
+Fundo em branco para usar:
+https://efootballhub.net/pes21-mobile/images/featuredbackgrounds/iconicMomentBG_l.png

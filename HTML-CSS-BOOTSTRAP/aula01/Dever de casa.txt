@@ -1,0 +1,33 @@
+DEVER DE CASA
+=============
+
+
+Pesquise  Bitcoin no Google e copie o Título e os dois primeiros parágrafos da Wikipedia.
+
+
+
+
+##################################################
+##################################################
+
+HTML
+hyper text makeup language
+
+URL - Endereços na Internet
+
+https://www.google.com.br
+
+----------
+IDE - Programas que auxiliam no desenvolvimento de linguagens.
+
+Visual Studio Code (Microsoft)
+Brackets
+Sublime
+Notepad++
+
+
+-----------------HTML
+
+tags para marcar o texto 
+<tag> -abertura de tag
+</tag> -fechamento de tag

@@ -1,0 +1,4 @@
+Dever de casa
+
+Usando componentes do BOOTSTRAP crie um formulário de cadastro de alunos com:
+Nome, cpf, email, telefone (coloque opção de marcar se é WhatsApp ou telegram), endereço e filiação

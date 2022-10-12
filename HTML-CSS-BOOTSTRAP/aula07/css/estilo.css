@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 1300px;
+    margin: 0 auto;
+}
+header img{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+nav{
+    background-color: darkred;
+    height: 80px;
+    padding: 1px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px lightgray;
+    font-size: 20pt;
+    font-weight: bold;
+}
+nav ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    column-gap: 370px;
+    padding: 0 5px;
+}
+nav li{
+    padding: 20px;
+    margin: -22px;
+}
+#site{
+    background-color: lightgray;    
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 800px;
+    gap: 20px;
+    padding: 20px;
+}
+aside{
+    clear: both;
+    background-color: yellow;
+    height: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+#site section{
+    background-color: green;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 10px;
+    padding-bottom: 15px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+#site article{
+    height: 100%;
+    background-color: yellow;
+    border: 2px solid blue;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
+    text-align: center;
+}
+#site article img{
+    height: 80%;
+    width: 300px;
+}
+#imagens{
+    width: 100%;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+#imagens article{
+    height: 560px;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+#videos{
+    width: 100%;
+    height: 1200px;
+    background-color: white;
+}
+#videos article{
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+footer{
+    background-color: darkred;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    padding: 10px;
+}

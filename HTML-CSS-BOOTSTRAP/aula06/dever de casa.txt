@@ -1,0 +1,19 @@
+Crie uma página com o seguinte layout:
+
+ ________________________________________________
+|                  TOPO                          |
+|________________________________________________|
+|___________________NAV__________________________|
+|                      |                         |
+|         1            |            2            |
+|______________________|_________________________|
+|                      |                         |
+|         3            |            4            |
+|______________________|_________________________|
+|                       Foooter                  |
+|________________________________________________|
+
+
+Lembre-se de fazer uma div container chamada site para todas as divs ficarem dentro dela.
+
+Nos blocos, para não ficarem apenas com os números, coloque um vídeo e um título, ou uma imagem e um título;

@@ -1,0 +1,48 @@
+#divcard{
+    position: relative;
+}
+.cardPlayer{
+    height: 400px;
+}
+.photoPlayer{
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    height: 384px;
+}
+.dadosPlayer{
+    position: absolute;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    top: 0px;
+    left: 5px;
+}
+.pointsPlayer{
+    position: absolute;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    top: 34px;
+    left: 5px;
+}
+.bandeiraPlayer{
+    position: absolute;
+    top: 110px;
+    left: -5px;
+    height: 62px;
+}
+.escudoPlayer{
+    position: absolute;
+    top: 342px;
+    left: 230px;
+    height: 55px;
+}
+.bolaPlayer{
+    position: absolute;
+    top: 75px;
+    left: 5px;
+    height: 40px;
+}

@@ -1,0 +1,47 @@
+form {
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: rgb(46, 89, 149);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+  }
+  h1{
+    height: 60px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(46, 89, 149);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 20px;
+  }
+  label {
+      text-align: right;
+  }
+  form .row {
+      margin-bottom: 15px;
+      justify-content: center;
+  }
+  legend {
+      width: 50%;
+      height: 60px;
+      margin-left: 370px;
+      padding-top: 8px;
+      text-align: center;
+      border: 3px solid black;
+      border-radius: 20px;
+      font-weight: bold;
+  }
+  button {
+      border-radius: 5px;
+      box-shadow: 2px 2px 5px black;
+  }
+  .limpar {
+    border-radius: 5px;
+      box-shadow: 2px 2px 5px black;
+  }

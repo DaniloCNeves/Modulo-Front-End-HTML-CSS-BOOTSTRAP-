@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+  <form action="./enviado.html">
+    <fieldset>
+      <legend>Cadastro de Veículo</legend>
+      
+      <div class="row">
+        <label class="col-md-2 control-label" for="selectTipo">Tipo</label>
+          <div class="col-md-2">
+            <select name="selectTurno" id="selectTurno" class="form-control">
+              <option value="c">Carro</option>
+              <option value="m">Moto</option>
+            </select>
+          </div>
+      </div>
+
+      <div class="row">
+          <label class="col-md-2 control-label" for="radioMarca">Marca</label>
+            <div class="col-md-2">
+              <div class="radio">
+                <label for="radioMarca-0">
+                  <input type="radio" name="radioMarca" id="radioMarca-1" value="f"> Ford
+                </label>
+              </div>
+              <div class="radio">
+              <label for="radioMarca-0">
+                <input type="radio" name="radioMarca" id="radioMarca-1" value="v"> Volkswagen
+              </label>
+              </div>
+              <div class="radio">
+                <label for="radioMarca-0">
+                  <input type="radio" name="radioMarca" id="radioMarca-1" value="c"> Chevrolet
+                </label>
+              </div>
+              <div class="radio">
+                <label for="radioMarca-0">
+                  <input type="radio" name="radioMarca" id="radioMarca-1" value="r"> Renault
+                </label>
+              </div>
+            </div>
+      </div>
+
+      <div class="row">
+            <label class="col-md-2 control-label" for="inputNome">Modelo</label>
+              <div class="col-md-2">
+                <input id="inputNome" name="inputNome" type="text" placeholder="Modelo do Veículo"
+                  class="form-control input-md" required maxlength="100">
+              </div>
+      </div>
+
+      <div class="row">
+        <label class="col-md-3 control-label">
+            <button>Cadastrar</button>
+              <input class="limpar" type="reset" value="Limpar Dados">
+        </label>
+      </div>
+
+    </fieldset>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+</html>
